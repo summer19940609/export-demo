@@ -2,9 +2,7 @@ const excel = require('exceljs');
 const path = require('path');
 
 const wb = new excel.Workbook();
-const sheet = wb.addWorksheet('sheet1');
-
-const ws = wb.getWorksheet('sheet1');
+const ws = wb.addWorksheet('sheet1');
 
 // mock数据
 const mockData = [
